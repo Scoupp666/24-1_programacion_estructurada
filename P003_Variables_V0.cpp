@@ -2,6 +2,9 @@
 //  
 
 #include <iostream>
+#include <string>
+#include <Formulario_Matematico.h>
+
 #
 
 int main()
@@ -39,6 +42,21 @@ int main()
     
     //Solicitar al usuario cada una de las variables
     std::cout << "usuario dame por favor un boleano;" <<
+
+        //Realizar operaciones 
+        float a, b, c; 
+    a = 10;
+    b = 5;
+    c = a / b;
+    std::cout << "usuario dame por favor el resultado de la division; " << c;
+    c = a + b;
+    std::cout << "usuario dame por favor el resultado de la suma;" <<
+    c = a - b;
+    
+    c = a * b;
+
+
+
 
 
 }
